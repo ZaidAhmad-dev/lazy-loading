@@ -1,0 +1,26 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img-wrapper {
+    width: 500px;
+    margin: 220px auto;
+}
+
+img {
+    width: 100%;
+}
+
+.lozad {
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.lozad.loaded{
+    opacity: 1;
+}
